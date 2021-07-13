@@ -1,13 +1,13 @@
 <?php
 class Database {
-    //Db Params
+    // Db Params
     private $host = 'localhost';
     private $db_name = 'myblog';
     private $username = 'root';
     private $password = '';
     private $conn;
 
-    //DB connect
+    // DB connect
     public function connect() {
         $this->conn = null;
 
